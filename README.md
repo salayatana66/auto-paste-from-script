@@ -8,7 +8,7 @@ Currently supports Python, R, Scala.
 ``` python
 from auto_paste_from_script import AutoPasteFromScript
 
-myS = AutoPasteFromScript(“script.py”)
+myS = AutoPasteFromScript("script.py")
 
 myS(5,10)
 ```
@@ -16,9 +16,9 @@ myS(5,10)
 ## R Usage ##
 
 ``` r
-source(“AutoPasteFromScript.R”)
+source("AutoPasteFromScript.R")
 
-myS <- AutoPasteFromScript$new(fileName=”this.R”)
+myS <- AutoPasteFromScript$new(fileName="this.R")
 
 myS$exec(1,5)
 ```
@@ -30,7 +30,7 @@ myS$exec(1,5)
 import auto.paste.from.script.AutoPasteFromScript
 
 // $intp is the current interpreter
-val myS = AutoPasteFromScript(“filename.scala”, $intp)
+val myS = AutoPasteFromScript("filename.scala", $intp)
 
 myS(1,5)
 ```
